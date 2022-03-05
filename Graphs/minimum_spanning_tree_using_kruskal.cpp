@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// can be used to detect cycles in an undirected graph
+// link to the question - https://www.codingninjas.com/codestudio/problems/minimum-spanning-tree_631769?topList=love-babbar-dsa-sheet-problems
+
 struct cmp{
     bool operator()(const vector<int> &v1, const vector<int> &v2)
     {
