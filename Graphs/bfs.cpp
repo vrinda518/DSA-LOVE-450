@@ -15,7 +15,7 @@ class Graph
     void addEdge(int i, int j)
     {
         l[i].push_back(j);
-        l[j].push_back(i);
+        //l[j].push_back(i);
     }
 
     void bfs(int s, bool * visited, vector<int> &ans)
